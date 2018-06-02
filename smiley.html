@@ -10,15 +10,11 @@ div#wrapper {
 	width: 200px;
 	position: relative;
 	border-radius: 100px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
 }
 .smiley .eye {
 	height: 12px;
 	width: 12px;
 	border-radius: 12px;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
 	position: absolute;
 }
 .left-eye {
@@ -30,10 +26,6 @@ div#wrapper {
 	right: 60px;
 }
 .mouth {
-	-webkit-border-bottom-right-radius: 25px;
-	-webkit-border-bottom-left-radius: 25px;
-	-moz-border-radius-bottomright: 25px;
-	-moz-border-radius-bottomleft: 25px;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
 	height: 25px;
@@ -56,9 +48,9 @@ div#wrapper, .smiley div {
 <body>
 <div id="wrapper">
 	<div class="smiley">
-		<div class="left-eye eye">&nbsp;</div>
-		<div class="right-eye eye">&nbsp;</div>
-		<div class="mouth">&nbsp;</div>
+		<div class="eye left-eye"></div>
+		<div class="eye right-eye"></div>
+		<div class="mouth"></div>
 	</div>
 </div>
 </body>
